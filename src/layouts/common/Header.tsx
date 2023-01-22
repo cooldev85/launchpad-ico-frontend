@@ -17,7 +17,7 @@ const web3Modal = new Web3Modal({
 const DesktopView = () => {
 
   const [account, setAccount] = useState("");
-  const [chain, setChain] = useState("Wrong Network");
+  const [chain, setChain] = useState("Network");
 
   var styledAddress = account
     ? account.slice(0, 4) + "..." + account.slice(-4)
